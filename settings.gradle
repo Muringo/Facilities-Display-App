@@ -1,0 +1,2 @@
+rootProject.name = "Faclities Display"
+include ':app'
