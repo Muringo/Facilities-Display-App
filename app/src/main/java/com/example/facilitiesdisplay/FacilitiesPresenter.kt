@@ -25,7 +25,7 @@ class FacilitiesPresenter(private val view: FacilitiesContract.View) : Facilitie
             }
 
             override fun onFailure(call: Call<FacilityResponse>, t: Throwable) {
-                view.showErrorMessage("Failed to fetch facilities: ${t.message}")
+//                view.showErrorMessage("Failed to fetch facilities: ${t.message}")
             }
         })
     }
